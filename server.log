@@ -1,0 +1,21 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 26, 2016 - 07:55:34
+Django version 1.7.7, using settings 'Django.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+[26/Oct/2016 07:55:39] "GET /detail.html HTTP/1.1" 200 1978
+[26/Oct/2016 07:55:39] "GET /static/css/materialize.css HTTP/1.1" 304 0
+[26/Oct/2016 07:55:39] "GET /static/css/detail_style.css HTTP/1.1" 200 2224
+[26/Oct/2016 07:55:39] "GET /static/image/sample.jpg HTTP/1.1" 200 20201
+[26/Oct/2016 07:55:39] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 404 1712
+[26/Oct/2016 07:55:39] "GET /static/fonts/roboto/Roboto-Regular.woff HTTP/1.1" 404 1709
+[26/Oct/2016 07:55:39] "GET /static/fonts/roboto/Roboto-Regular.ttf HTTP/1.1" 404 1706
+[26/Oct/2016 07:55:51] "GET /static/fonts/roboto/Roboto-Light.woff2 HTTP/1.1" 404 1706
+[26/Oct/2016 07:55:51] "GET /static/fonts/roboto/Roboto-Light.woff HTTP/1.1" 404 1703
+[26/Oct/2016 07:55:51] "GET /static/fonts/roboto/Roboto-Light.ttf HTTP/1.1" 404 1700
+[26/Oct/2016 07:57:58] "GET /detail.html HTTP/1.1" 200 1974
+[26/Oct/2016 07:57:58] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 404 1712
+[26/Oct/2016 07:57:58] "GET /static/fonts/roboto/Roboto-Regular.woff HTTP/1.1" 404 1709
+[26/Oct/2016 07:57:58] "GET /static/fonts/roboto/Roboto-Regular.ttf HTTP/1.1" 404 1706

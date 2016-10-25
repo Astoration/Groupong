@@ -1,0 +1,91 @@
+{% load staticfiles %}
+<!DOCTYPE HTML>
+<hmtl>
+
+    <head>
+        <link href="/static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="{% static 'css/style.css' %}" type="text/css" rel="stylesheet" />
+        <meta charset="utf-8" />
+
+    </head>
+    <header>
+        <nav>
+            <div class="nav-wrapper row">
+                <a href="" class="brand-logo col s2 center-align">Logo</a>
+                <form class="col s8 push-s2 ">
+                    <div class="input-field">
+                        <input id="search" type="search" required>
+                        <label for="search"><i class="material-icons">search</i></label>
+                        <i class="material-icons">close</i>
+                    </div>
+                </form>
+
+                <ul id="nav-mobile" class="right hide-on-med-and-down col s3 push-s1 ">
+                    <li><a href="/login">login</a></li>
+                    <li><a href="/register">register </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <body>
+        <div class="container row">
+            <div class="col s12">
+                <div class="card col s3 ">
+                    <div class="card-image">
+                        <img src="/static/image/popura.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="detail.html">This is a link</a>
+                    </div>
+                </div>
+                <div class="card col s3 ">
+                    <div class="card-image">
+                        <img src="image/popura.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="detail.html">This is a link</a>
+                    </div>
+                </div>
+                <div class="card col s3 ">
+                    <div class="card-image">
+                        <img src="image/popura.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="detail.html">This is a link</a>
+                    </div>
+                </div>
+                <div class="card col s3 ">
+                    <div class="card-image">
+                        <img src="image/popura.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="detail.html">This is a link</a>
+                    </div>
+                </div>
+            </div>
+    </body>
+    <footer>
+    </footer>
+</hmtl>

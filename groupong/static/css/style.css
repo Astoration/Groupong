@@ -1,0 +1,9 @@
+#search{
+    border-radius: 10px;
+    display: inline;
+    height: 45%;
+}
+.container{
+    width: 100%;
+    margin-top: 20px;
+}

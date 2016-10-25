@@ -26,7 +26,6 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = (
@@ -64,6 +63,8 @@ DATABASES = {
     }
 }
 
+
+# AUTH_USER_MODEL = 'groupong.Profile'
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
 
