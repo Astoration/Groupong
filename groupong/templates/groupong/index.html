@@ -1,6 +1,6 @@
 {% load staticfiles %}
 <!DOCTYPE HTML>
-<hmtl>
+<html>
 
     <head>
         <link href="/static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
@@ -20,10 +20,15 @@
                         <i class="material-icons">close</i>
                     </div>
                 </form>
-
                 <ul id="nav-mobile" class="right hide-on-med-and-down col s3 push-s1 ">
+					
+					{% if not user.is_authenticated %}
                     <li><a href="/login">login</a></li>
                     <li><a href="/register">register </a></li>
+					{% else %}
+					<li><a href="/write">write</a></li>
+                    <li><a href="/logout">logout</a></li>
+					{% endif %}
                 </ul>
             </div>
         </nav>
@@ -85,7 +90,9 @@
                     </div>
                 </div>
             </div>
+			<footer>
+    		</footer>
+		</div>
     </body>
-    <footer>
-    </footer>
-</hmtl>
+    
+</html>

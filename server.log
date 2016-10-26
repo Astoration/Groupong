@@ -1,21 +1,57 @@
 Performing system checks...
 
 System check identified no issues (0 silenced).
-October 26, 2016 - 07:55:34
+October 26, 2016 - 10:45:15
 Django version 1.7.7, using settings 'Django.settings'
 Starting development server at http://0.0.0.0:80/
 Quit the server with CONTROL-C.
-[26/Oct/2016 07:55:39] "GET /detail.html HTTP/1.1" 200 1978
-[26/Oct/2016 07:55:39] "GET /static/css/materialize.css HTTP/1.1" 304 0
-[26/Oct/2016 07:55:39] "GET /static/css/detail_style.css HTTP/1.1" 200 2224
-[26/Oct/2016 07:55:39] "GET /static/image/sample.jpg HTTP/1.1" 200 20201
-[26/Oct/2016 07:55:39] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 404 1712
-[26/Oct/2016 07:55:39] "GET /static/fonts/roboto/Roboto-Regular.woff HTTP/1.1" 404 1709
-[26/Oct/2016 07:55:39] "GET /static/fonts/roboto/Roboto-Regular.ttf HTTP/1.1" 404 1706
-[26/Oct/2016 07:55:51] "GET /static/fonts/roboto/Roboto-Light.woff2 HTTP/1.1" 404 1706
-[26/Oct/2016 07:55:51] "GET /static/fonts/roboto/Roboto-Light.woff HTTP/1.1" 404 1703
-[26/Oct/2016 07:55:51] "GET /static/fonts/roboto/Roboto-Light.ttf HTTP/1.1" 404 1700
-[26/Oct/2016 07:57:58] "GET /detail.html HTTP/1.1" 200 1974
-[26/Oct/2016 07:57:58] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 404 1712
-[26/Oct/2016 07:57:58] "GET /static/fonts/roboto/Roboto-Regular.woff HTTP/1.1" 404 1709
-[26/Oct/2016 07:57:58] "GET /static/fonts/roboto/Roboto-Regular.ttf HTTP/1.1" 404 1706
+ybdh00
+[26/Oct/2016 10:45:18] "GET / HTTP/1.1" 200 3724
+[26/Oct/2016 10:45:18] "GET /image/popura.jpg HTTP/1.1" 404 3314
+[26/Oct/2016 10:45:18] "GET /static/fonts/roboto/Roboto-Light.woff2 HTTP/1.1" 404 1706
+[26/Oct/2016 10:45:18] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 404 1712
+[26/Oct/2016 10:45:18] "GET /static/fonts/roboto/Roboto-Light.woff HTTP/1.1" 404 1703
+[26/Oct/2016 10:45:18] "GET /static/fonts/roboto/Roboto-Regular.woff HTTP/1.1" 404 1709
+[26/Oct/2016 10:45:18] "GET /static/fonts/roboto/Roboto-Light.ttf HTTP/1.1" 404 1700
+[26/Oct/2016 10:45:18] "GET /static/fonts/roboto/Roboto-Regular.ttf HTTP/1.1" 404 1706
+[26/Oct/2016 10:45:21] "GET /logout HTTP/1.1" 302 0
+
+[26/Oct/2016 10:45:21] "GET / HTTP/1.1" 200 3744
+[26/Oct/2016 10:45:21] "GET /image/popura.jpg HTTP/1.1" 404 3314
+[26/Oct/2016 10:45:21] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 404 1712
+[26/Oct/2016 10:45:21] "GET /static/fonts/roboto/Roboto-Light.woff2 HTTP/1.1" 404 1706
+[26/Oct/2016 10:45:21] "GET /static/fonts/roboto/Roboto-Light.woff HTTP/1.1" 404 1703
+[26/Oct/2016 10:45:21] "GET /static/fonts/roboto/Roboto-Regular.woff HTTP/1.1" 404 1709
+[26/Oct/2016 10:45:21] "GET /static/fonts/roboto/Roboto-Light.ttf HTTP/1.1" 404 1700
+[26/Oct/2016 10:45:21] "GET /static/fonts/roboto/Roboto-Regular.ttf HTTP/1.1" 404 1706
+
+[26/Oct/2016 10:45:32] "GET / HTTP/1.1" 200 3744
+[26/Oct/2016 10:46:29] "GET /login HTTP/1.1" 200 1529
+[26/Oct/2016 10:46:29] "GET /js/materialize.min.js HTTP/1.1" 404 3329
+[26/Oct/2016 10:46:29] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 404 1712
+[26/Oct/2016 10:46:29] "GET /static/fonts/roboto/Roboto-Regular.woff HTTP/1.1" 404 1709
+[26/Oct/2016 10:46:29] "GET /static/fonts/roboto/Roboto-Regular.ttf HTTP/1.1" 404 1706
+ybdh00
+[26/Oct/2016 10:46:37] "POST /logins HTTP/1.1" 302 0
+ybdh00
+[26/Oct/2016 10:46:38] "GET / HTTP/1.1" 200 3724
+[26/Oct/2016 10:46:38] "GET /image/popura.jpg HTTP/1.1" 404 3314
+[26/Oct/2016 10:46:38] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 404 1712
+[26/Oct/2016 10:46:38] "GET /static/fonts/roboto/Roboto-Light.woff2 HTTP/1.1" 404 1706
+[26/Oct/2016 10:46:38] "GET /static/fonts/roboto/Roboto-Light.woff HTTP/1.1" 404 1703
+[26/Oct/2016 10:46:38] "GET /static/fonts/roboto/Roboto-Regular.woff HTTP/1.1" 404 1709
+[26/Oct/2016 10:46:38] "GET /static/fonts/roboto/Roboto-Light.ttf HTTP/1.1" 404 1700
+[26/Oct/2016 10:46:38] "GET /static/fonts/roboto/Roboto-Regular.ttf HTTP/1.1" 404 1706
+[26/Oct/2016 10:46:41] "GET /write HTTP/1.1" 200 3615
+[26/Oct/2016 10:46:41] "GET /static/css/detail_style.css HTTP/1.1" 200 2224
+[26/Oct/2016 10:46:41] "GET /static/image/sample.jpg HTTP/1.1" 200 20201
+[26/Oct/2016 10:46:41] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 404 1712
+[26/Oct/2016 10:46:41] "GET /static/fonts/roboto/Roboto-Regular.woff HTTP/1.1" 404 1709
+[26/Oct/2016 10:46:41] "GET /static/fonts/roboto/Roboto-Regular.ttf HTTP/1.1" 404 1706
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 26, 2016 - 10:52:37
+Django version 1.7.7, using settings 'Django.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.

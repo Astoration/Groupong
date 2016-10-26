@@ -20,6 +20,12 @@
 		<form method="POST" action="/registers">
 			{% csrf_token %}
       <div class="container">
+		  	<div class="row">
+                <div class="input-field col s6">
+                    <input name="userId" id="id" type="text" class="validate">
+                    <label class="active" for="id">id</label>
+                </div>
+            </div>
             <div class="row">
                 <div class="input-field col s6">
                     <input name="firstName" id="first_name2" type="text" class="validate">
